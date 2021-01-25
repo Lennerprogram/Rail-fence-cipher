@@ -44,7 +44,7 @@ def RailFence(rail, string):
     for c in range(rail):
         togetherlist += a[c]
 
-    criptografado = ''.join(togetherlist)
+    encrypted= ''.join(togetherlist)
 
-    print(criptografado)
-    return criptografado
+    print(encrypted)
+    return encrypted
